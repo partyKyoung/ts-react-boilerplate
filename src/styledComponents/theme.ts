@@ -49,7 +49,7 @@ export interface IThemeProps {
     tablet: string;
     desktop: string;
     desktopL: string;    
-  }
+  };
 }
 
 const theme: IThemeProps = {
