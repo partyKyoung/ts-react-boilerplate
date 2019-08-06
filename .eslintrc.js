@@ -8,7 +8,6 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/indent': 0,
-    '@typescript-eslint/interface-name-prefix': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'react/jsx-filename-extension': [
       1,
