@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { reset } from 'styled-reset';
 
-import { createGlobalStyle, theme, ThemeProvider} from '~/styledComponents';
+import { theme, ThemeProvider} from '~/styledComponents';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const GlobalStypes = createGlobalStyle`${reset}`;
+import GlobalStyles from './globalStyles';
 
 ReactDOM.render(
   <>
-    <GlobalStypes />
+    <GlobalStyles />
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <App />
