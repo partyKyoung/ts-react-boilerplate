@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
-import { theme, ThemeProvider} from '~/styledComponents';
+import { theme, ThemeProvider } from '~/styledComponents';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -17,8 +17,9 @@ ReactDOM.render(
         <App />
       </BrowserRouter>
     </ThemeProvider>
-  </>
-, document.getElementById('root'));
+  </>,
+  document.getElementById('root'),
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

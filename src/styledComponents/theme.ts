@@ -1,4 +1,4 @@
-export interface IThemeProps {
+export interface ThemeProps {
   color: {
     shinhan: string;
     primaryMain: string;
@@ -48,11 +48,11 @@ export interface IThemeProps {
     mobile: string;
     tablet: string;
     desktop: string;
-    desktopL: string;    
+    desktopL: string;
   };
 }
 
-const theme: IThemeProps = {
+const theme: ThemeProps = {
   color: {
     shinhan: '#258eea',
     primaryMain: '#f70000',
@@ -84,27 +84,27 @@ const theme: IThemeProps = {
     red400: '#ff5058',
     red500: '#f70000',
     blue500: '#007dff',
-    yellow300: '#ffde85'
+    yellow300: '#ffde85',
   },
 
   font: {
-    family: `'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif`,
+    family: '\'Noto Sans KR\', -apple-system, BlinkMacSystemFont, \'Helvetica Neue\', Arial, sans-serif',
     xsmall: '9px',
     small: '10px',
     base: '13px',
     large: '15px',
     xlarge: '20px',
     xxlarge: '25px',
-    xxxlarge: '31px'
+    xxxlarge: '31px',
   },
 
   breakPoints: {
-    mobileS: `(max-width: 320px)`,
-    mobile: `(min-width: 376px)`,
-    tablet: `(min-width: 768px)`,
-    desktop: `(min-width: 992px)`,
-    desktopL: `(min-width: 1200px)`
-  }
+    mobileS: '(max-width: 320px)',
+    mobile: '(min-width: 376px)',
+    tablet: '(min-width: 768px)',
+    desktop: '(min-width: 992px)',
+    desktopL: '(min-width: 1200px)',
+  },
 };
 
 export default theme;

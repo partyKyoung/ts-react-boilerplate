@@ -3,8 +3,13 @@ module.exports = {
     browser: true
   },
   parser: '@typescript-eslint/parser',
-  extends: ['plugin:@typescript-eslint/recommended', 'react-app', 'airbnb', 'prettier'],
-  plugins: ['prettier'],
+  extends: [
+    'plugin:@typescript-eslint/recommended', 
+    'react-app', 
+    'airbnb', 
+    'prettier/@typescript-eslint'
+  ],
+  plugins: ['@typescript-eslint', 'prettier'],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 0,
     '@typescript-eslint/indent': 0,

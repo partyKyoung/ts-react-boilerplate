@@ -1,14 +1,16 @@
 import * as styledComponents from 'styled-components';
 
-import theme, { IThemeProps } from './theme';
+import theme, { ThemeProps } from './theme';
 
 const {
   default: styled,
   css,
   createGlobalStyle,
   keyframes,
-  ThemeProvider
-} = styledComponents as styledComponents.ThemedStyledComponentsModule<IThemeProps>;
+  ThemeProvider,
+} = styledComponents as styledComponents.ThemedStyledComponentsModule<ThemeProps>;
 
-export { css, createGlobalStyle, keyframes, ThemeProvider, theme };
+export {
+  css, createGlobalStyle, keyframes, ThemeProvider, theme,
+};
 export default styled;
