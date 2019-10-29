@@ -1,5 +1,7 @@
 import React from 'react';
-import styled from '~/styledComponents';
+
+import styled from '@/styledComponents';
+
 
 const Wrapper = styled.div``;
 
